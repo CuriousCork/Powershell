@@ -3,7 +3,5 @@ function Test-RPPSParameter{
         $ComputerName
     )
     Write-Output $ComputerName
-
 }
-
 Test-RPPSParameter -ComputerName "PC-WIN-002"
